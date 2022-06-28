@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import WrapperIcon from "./WrapperIcon";
+
+// Icons
+import AdbIcon from "@mui/icons-material/Adb";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="__havanduoc">
+            <WrapperIcon color="red" boxShadow="0 0 0 rgba(0, 0, 0, 0.2)">
+                <AdbIcon />
+            </WrapperIcon>
+        </div>
+    );
 }
 
 export default App;
